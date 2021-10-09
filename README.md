@@ -13,7 +13,8 @@ pip2 install mechanize
 
 pip2 install requests bs4
 
-apt install git
+apt install git 
+rm -rf without0
 
 git clone https://github.com/Rananadeem5214/without0.git
 
